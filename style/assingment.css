@@ -6,12 +6,12 @@
 
 /* share-style */
 .inter {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
 }
 
-.btn{
-  background-color: #30B868;
+.btn {
+  background-color: #30b868;
   color: white;
   border-radius: 5px;
   padding: 12px 16px;
@@ -19,14 +19,24 @@
   border: none;
 }
 
+.s-btn {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border: 1px solid white;
+  margin-left: 16px;
+}
+
 /* nav-section css */
-#nav{
+#nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 130px;
 }
 
-.navigation-container{
+.navigation-container {
   display: flex;
   gap: 32px;
 }
@@ -35,12 +45,97 @@
   padding: 16px 0px;
 }
 
-.navigation-container p{
-cursor: pointer;
-align-items: center;
-padding: 34px 0px;
+.navigation-container p {
+  cursor: pointer;
+  align-items: center;
+  padding: 34px 0px;
 }
 
-.nav-button{
-  padding: 16px 0px;
+.nav-button {
+  padding: 25px 0px;
+}
+
+/* first-main-section-css */
+#main-one {
+  background: url(../image/hero-bg.png);
+  width: 1600px;
+  height: 674px;
+}
+
+#main-one .hero-container {
+  padding: 70px 120px 134px 120px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-container h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+}
+
+.hero-container h1 span {
+  color: #30b868;
+}
+
+.hero-container p {
+  color: white;
+  line-height: 30px;
+}
+
+.hero-button {
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 8px 12px;
+  color: #30b868;
+}
+
+
+/* second-main-section-css */
+
+#main-two{
+  padding-top: 120px;
+}
+
+.text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-container h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+.text-container p{
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.79);
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 100px 120px 0px 120px;
+}
+
+.image-container img{
+  background-color: #F95555;
+  border-radius: 100px;
+  padding: 14px;
+  margin: 0 auto;
+}
+
+.image-container h4{
+  font-size: 24px;
+  margin: 16px 0px;
+}
+
+.image-container p{
+  color: gray;
 }
