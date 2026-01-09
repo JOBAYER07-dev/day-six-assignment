@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 1524px;
+  width: 1600px;
 
 }
 
@@ -35,10 +35,13 @@ body {
 }
 
 /* nav-section css */
+header{
+  max-width: 1600px;
+}
+
 #nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 130px;
 }
 
 .navigation-container {
@@ -48,6 +51,7 @@ body {
 
 .nav-img {
   padding: 16px 0px;
+  padding-left: 130px;
 }
 
 .navigation-container p {
@@ -58,11 +62,14 @@ body {
 
 .nav-button {
   padding: 25px 0px;
+  padding-right: 120px;
 }
 
 /* first-main-section-css */
 #main-one {
   background: url(../image/hero-bg.png);
+  background-size: 100%;
+  max-width: 1600px;
 }
 
 #main-one .hero-container {
@@ -101,6 +108,7 @@ body {
 
 #main-two {
   padding-top: 120px;
+  max-width: 1600px;
 }
 
 .text-container {
@@ -144,7 +152,9 @@ body {
 }
 
 /* third-main-section-css */
-
+#main-three {
+  max-width: 1600px;
+}
 .third-container {
   padding: 130px;
   display: flex;
@@ -186,6 +196,7 @@ body {
 #main-fourth {
   padding-bottom: 120px;
   margin: 0px 120px;
+  max-width: 1600px;
 }
 
 .fourth-container {
@@ -194,6 +205,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 1360px;
 }
 
 .fourth-container h1 {
@@ -217,6 +229,7 @@ body {
 /* footer css start from here */
 footer {
   background-color: #06204a;
+  max-width: 1600px;
 }
 
 #footer-section {
