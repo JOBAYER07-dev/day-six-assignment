@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  width: 1524px;
+  height: 2865px;
+}
+
 /* share-style */
 .inter {
   font-family: 'Inter', sans-serif;
@@ -58,8 +63,6 @@
 /* first-main-section-css */
 #main-one {
   background: url(../image/hero-bg.png);
-  width: 1520px;
-  height: 674px;
 }
 
 #main-one .hero-container {
@@ -176,6 +179,7 @@
 
 .third-text p i {
   color: #30b868;
+  
 }
 
 /* fourth-main-section-css */
