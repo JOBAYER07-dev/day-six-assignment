@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 1524px;
-  height: 2865px;
+
 }
 
 /* share-style */
@@ -179,7 +179,6 @@ body{
 
 .third-text p i {
   color: #30b868;
-  
 }
 
 /* fourth-main-section-css */
@@ -242,13 +241,15 @@ hr {
   margin: 0px 120px;
   margin: 80px;
   margin-bottom: 30px;
+  border: none;
+  height: 0.5px;
+  background-color: rgb(54, 54, 54);
 }
 
 .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding-bottom: 30px;
 }
 
