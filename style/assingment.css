@@ -6,7 +6,6 @@
 
 body {
   width: 1600px;
-
 }
 
 /* share-style */
@@ -35,34 +34,34 @@ body {
 }
 
 /* nav-section css */
-header{
+body {
   max-width: 1600px;
 }
 
-#nav {
+header {
+  max-width: 1600px;
+  height: 92px;
+}
+
+#navigation {
   display: flex;
   justify-content: space-between;
-}
-
-.navigation-container {
-  display: flex;
-  gap: 32px;
-}
-
-.nav-img {
-  padding: 16px 0px;
-  padding-left: 130px;
-}
-
-.navigation-container p {
-  cursor: pointer;
   align-items: center;
-  padding: 34px 0px;
+  margin: 0px 120px;
 }
 
-.nav-button {
-  padding: 25px 0px;
-  padding-right: 120px;
+.nav-img{
+  margin: 16px 0px;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: black;
+  margin-right: 32px;
+}
+
+.nav-button{
+  margin: 24px 0px;
 }
 
 /* first-main-section-css */
@@ -187,12 +186,11 @@ header{
   margin-bottom: 16px;
 }
 
-.third-text p img{
- width: 100%;
- max-width: 16px;
- height: 100%;
- max-height: 16px;
-  
+.third-text p img {
+  width: 100%;
+  max-width: 16px;
+  height: 100%;
+  max-height: 16px;
 }
 
 .third-text p i {
@@ -234,8 +232,8 @@ header{
   margin-top: 16px;
 }
 
-.fourth-container button{
-box-shadow: 0px 2px 50px 0 rgba(128, 128, 128, 0.579);
+.fourth-container button {
+  box-shadow: 0px 2px 50px 0 rgba(128, 128, 128, 0.579);
 }
 
 /* footer css start from here */
